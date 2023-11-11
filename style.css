@@ -123,3 +123,124 @@ body {
   color: #fff;
   font-weight: 400;
 }
+
+#page3 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+}
+#page3 > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#page3-upper {
+  height: 25%;
+  width: 35%;
+  position: absolute;
+  z-index: 9;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#page3-upper > img {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+#page3-upper-inner {
+  position: absolute;
+  bottom: 0%;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+  color: #ff823d;
+}
+#page3-upper-inner > h3 {
+  font-weight: 500;
+}
+#page3 > button {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 30px;
+  border: 1px solid #000;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 1.4vw;
+}
+
+#page4 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#page4 > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#center-page4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2vw;
+  text-align: center;
+}
+
+#page5 {
+  display: flex;
+  position: relative;
+  height: 60vh;
+  width: 100vw;
+}
+.left5 {
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+.left5 > h1 {
+  font-size: 2.3vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+}
+.right5 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  padding-left: 5vw;
+}
+.right5 > h3 {
+  font-size: 1.5vw;
+  width: 90%;
+  color: #484848d7;
+}
+.right5 > button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff823d;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 50px;
+  font-size: 1.3vw;
+  margin-top: 1.5vw;
+}
